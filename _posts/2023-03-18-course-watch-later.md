@@ -2,9 +2,9 @@
 layout: post
 title: Course for learning
 subtitle: Some exciting courses
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: assets/img/utils/later.png
+thumbnail-img: assets/img/utils/later.png
+share-img:  assets/img/utils/later.png
 tags: [watch later]
 ---
 
