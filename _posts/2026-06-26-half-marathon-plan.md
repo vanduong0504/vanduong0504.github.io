@@ -57,24 +57,24 @@ full-width: true
     border-bottom: 1px solid var(--border) !important; border-top: none !important; font-weight: 500;
     background: var(--bg) !important;
   }
-  .hm-plan tbody tr { border-bottom: 1px solid var(--border) !important; }
-  .hm-plan tbody tr:hover { background: rgba(255,255,255,0.02) !important; }
-  .hm-plan tbody tr.deload { background: rgba(255,255,255,0.012) !important; }
-  .hm-plan tbody tr.racerow { background: rgba(212,64,74,0.05) !important; }
-  .hm-plan td { padding: 8px 12px !important; vertical-align: top !important; background: transparent !important; border: none !important; }
+  .hm-plan tbody tr { background: transparent !important; border-bottom: 1px solid rgba(255,255,255,0.07) !important; }
+  .hm-plan tbody tr:hover { background: rgba(255,255,255,0.04) !important; }
+  .hm-plan tbody tr.deload { background: rgba(255,255,255,0.03) !important; }
+  .hm-plan tbody tr.racerow { background: rgba(212,64,74,0.08) !important; }
+  .hm-plan td { padding: 8px 12px !important; vertical-align: top !important; background: transparent !important; border: none !important; color: #E8EAF0 !important; }
 
   .hm-plan .wk { font-family: 'DM Mono', monospace; font-size: 11px; white-space: nowrap; }
-  .hm-plan .wk b { display: block; color: var(--text); }
-  .hm-plan .wk small { color: var(--muted); font-size: 10px; }
+  .hm-plan .wk b { display: block; color: #E8EAF0 !important; }
+  .hm-plan .wk small { color: rgba(232,234,240,0.42) !important; font-size: 10px; }
 
   .hm-plan .chip {
     display: flex; flex-direction: column;
     border-radius: 5px; padding: 5px 8px;
     width: 100%; line-height: 1.3;
   }
-  .hm-plan .ck { font-weight: 600; font-size: 12px; margin-bottom: 1px; }
-  .hm-plan .cd { font-size: 10.5px; opacity: 0.75; }
-  .hm-plan .ct { font-size: 10px; font-weight: 500; opacity: 0.85; margin-bottom: 1px; }
+  .hm-plan .ck { font-weight: 600; font-size: 12px; margin-bottom: 1px; color: #E8EAF0 !important; }
+  .hm-plan .cd { font-size: 10.5px; opacity: 0.75; color: #E8EAF0 !important; }
+  .hm-plan .ct { font-size: 10px; font-weight: 500; opacity: 0.85; margin-bottom: 1px; color: #E8EAF0 !important; }
 
   .hm-plan .c-easy   { background: rgba(76,175,130,0.13);  border-left: 3px solid #4CAF82; }
   .hm-plan .c-int    { background: rgba(224,90,42,0.13);   border-left: 3px solid #E05A2A; }
@@ -83,7 +83,7 @@ full-width: true
   .hm-plan .c-trial  { background: rgba(200,64,112,0.13);  border-left: 3px solid #C84070; }
   .hm-plan .c-stair  { background: rgba(160,200,120,0.12); border-left: 3px solid #A0C878; }
   .hm-plan .c-race   { background: rgba(212,64,74,0.16);   border-left: 3px solid #D4404A; }
-  .hm-plan .c-rest   { color: var(--muted); font-size: 11px; padding: 5px 0; }
+  .hm-plan .c-rest   { color: rgba(232,234,240,0.42) !important; font-size: 11px; padding: 5px 0; }
 
   .hm-plan footer {
     padding: 14px 20px;
