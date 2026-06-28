@@ -3,6 +3,7 @@ layout: post
 title: Half Marathon Plan
 subtitle: 24-week training plan — Techcombank HCM Half Marathon
 tags: [running, fitness]
+full-width: true
 ---
 
 <style>
@@ -48,19 +49,19 @@ tags: [running, fitness]
   }
 
   .hm-plan .table-wrap { overflow-x: auto; }
-  .hm-plan table { width: 100%; border-collapse: collapse; min-width: 680px; background: var(--bg); }
+  .hm-plan table { width: 100%; border-collapse: collapse !important; min-width: 680px; background: var(--bg) !important; color: var(--text) !important; }
   .hm-plan thead th {
     font-family: 'DM Mono', monospace; font-size: 10px;
     letter-spacing: 0.08em; text-transform: uppercase;
-    color: var(--muted); padding: 8px 12px; text-align: left;
-    border-bottom: 1px solid var(--border); font-weight: 500;
-    background: var(--bg);
+    color: var(--muted) !important; padding: 8px 12px; text-align: left;
+    border-bottom: 1px solid var(--border) !important; border-top: none !important; font-weight: 500;
+    background: var(--bg) !important;
   }
-  .hm-plan tbody tr { border-bottom: 1px solid var(--border); }
-  .hm-plan tbody tr:hover { background: rgba(255,255,255,0.02); }
-  .hm-plan tbody tr.deload { background: rgba(255,255,255,0.012); }
-  .hm-plan tbody tr.racerow { background: rgba(212,64,74,0.05); }
-  .hm-plan td { padding: 8px 12px; vertical-align: top; background: transparent; border: none; }
+  .hm-plan tbody tr { border-bottom: 1px solid var(--border) !important; }
+  .hm-plan tbody tr:hover { background: rgba(255,255,255,0.02) !important; }
+  .hm-plan tbody tr.deload { background: rgba(255,255,255,0.012) !important; }
+  .hm-plan tbody tr.racerow { background: rgba(212,64,74,0.05) !important; }
+  .hm-plan td { padding: 8px 12px !important; vertical-align: top !important; background: transparent !important; border: none !important; }
 
   .hm-plan .wk { font-family: 'DM Mono', monospace; font-size: 11px; white-space: nowrap; }
   .hm-plan .wk b { display: block; color: var(--text); }
